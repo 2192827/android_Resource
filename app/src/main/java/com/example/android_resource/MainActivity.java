@@ -34,10 +34,13 @@ public class MainActivity extends AppCompatActivity {
                 return true;
 
             case R.id.mVOZ:
-                Intent anterior11 = new Intent(this, MainActivity2.class);
+                Intent anterior11 = new Intent(this,AtivaRechonecimentoVoz.class);
                 startActivity(anterior11);
                 break;
-
+            case R.id.mTarefas:
+                Intent anterior21 = new Intent(this, MainActivity2.class);
+                startActivity(anterior21);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);

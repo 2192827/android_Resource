@@ -22,6 +22,19 @@ android:orderInCategory="100"
         android:orderInCategory="300"
         ></item>
 
+    <item
+        android:id="@+id/mRepaar"
+
+        android:title="@string/menu_Mantenimiento"
+        android:orderInCategory="300"
+        ></item>
+
+    <item
+        android:id="@+id/mMantenimiento"
+
+        android:title="@string/menu_Reparar"
+        android:orderInCategory="300"
+        ></item>
 
 
 </menu>
