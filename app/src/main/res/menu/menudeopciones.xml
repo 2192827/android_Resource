@@ -15,4 +15,13 @@ android:orderInCategory="100"
         ></item>
 
 
+    <item
+        android:id="@+id/mTarefas"
+
+        android:title="@string/menu_Tareas"
+        android:orderInCategory="300"
+        ></item>
+
+
+
 </menu>

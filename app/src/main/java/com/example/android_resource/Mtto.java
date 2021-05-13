@@ -8,17 +8,17 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class Mtto extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_mtto);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menudeopciones,menu);
+        getMenuInflater().inflate(R.menu.falla_passos,menu);
 
         return true  ;
     }
@@ -28,14 +28,12 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()){
 
-            case R.id.mQRCODE:
-                Intent anterior = new Intent(this, Q_R_CODE.class);
+            case R.id.mRepaar:
+                Intent anterior = new Intent(this, MainActivity2.class);
                 startActivity(anterior);
                 return true;
 
-            case R.id.mVOZ:
-                Intent anterior11 = new Intent(this, MainActivity2.class);
-                startActivity(anterior11);
+            case R.id.mMantenimiento:
                 break;
 
         }
